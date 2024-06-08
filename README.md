@@ -1,1 +1,21 @@
-# soal-list
+inventaris = ["laptop", "printer", "scanner", "monitor"]
+print(inventaris)
+item_baru = "keyboard"
+inventaris.append(item_baru)
+print(inventaris)
+karyawan = ["andi", "budi", "dewi", "citra"]
+print(karyawan)
+karyawan_baru = "Eka"
+karyawan.append(karyawan_baru)
+print(karyawan)
+harga_produk = [50000, 150000, 250000, 750000]
+print(harga_produk)
+harga_baru = 100000
+harga_produk.append(harga_baru)
+print(harga_produk)
+inventaris.remove("scanner")
+print(inventaris)
+karyawan.remove("budi")
+print(karyawan)
+print(len(inventaris))
+print(len(karyawan))
